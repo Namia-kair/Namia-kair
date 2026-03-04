@@ -4,8 +4,6 @@
 
 我是一名专注于**嵌入式系统**与**Linux 底层优化**的 学习开发者。我的日常充满了代码编译、日志分析和系统精简，致力于在有限的硬件资源上挖掘极致的性能。
 
-欢迎通过邮箱联系我：- [![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=Gmail&logoColor=white)](mailto:kmy258855@gmail.com)
-
 ---
 
 ## 🚀 Featured Projects (代表性项目)
