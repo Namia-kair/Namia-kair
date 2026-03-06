@@ -16,11 +16,12 @@ git config --global credential.helper 'cache --timeout=3600'
 
 ##   三、LEDE 源码同步到 GitHub（/mnt/Teclast/lede）
 步骤 1：进入 LEDE 目录
+bash
 
 cd /mnt/Teclast/lede
 ##   步骤 2：查看本地修改（可选，确认要同步的内容）
 bash
-运行
+
 git status
 # 步骤 3：暂存所有本地修改
 bash
