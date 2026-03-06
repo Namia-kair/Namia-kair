@@ -6,19 +6,18 @@
 4. 本地目录：/mnt/Teclast/lede（LEDE 主源码）、/mnt/Teclast/luci（luci 源码）
 
 ## 二、全局配置 Git 身份（仅首次执行）
-
+```bash
 # 配置 GitHub 用户名（替换为你的账号 Namia-kair）
 git config --global user.name "Namia-kair"
 # 配置 GitHub 绑定邮箱（替换为你的邮箱）
 git config --global user.email "kmy258855@outlook.com"
 # 可选：缓存凭证（避免每次推送输入账号，有效期3600秒=1小时）
 git config --global credential.helper 'cache --timeout=3600'
-
-# 三、LEDE 源码同步到 GitHub（/mnt/Teclast/lede
-步骤1 ：
+三、LEDE 源码同步到 GitHub（/mnt/Teclast/lede）
+步骤 1：进入 LEDE 目录
 bash
+运行
 cd /mnt/Teclast/lede
-
 步骤 2：查看本地修改（可选，确认要同步的内容）
 bash
 运行
@@ -104,4 +103,3 @@ plaintext
 1. 直接复制上述全部内容，粘贴到文本编辑器后保存为 `README.md`；
 2. 可直接放到 `/mnt/Teclast/` 目录下，或上传到 GitHub 仓库根目录；
 3. 所有命令保持原样本的完整性，markdown 格式下代码块高亮显示，层级清晰易读。
-改为README
