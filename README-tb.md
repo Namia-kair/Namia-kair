@@ -5,7 +5,7 @@
 3. GitHub Personal Access Token (PAT)（生成时勾选 `repo` 全权限，保存好令牌）
 4. 本地目录：/mnt/Teclast/lede（LEDE 主源码）、/mnt/Teclast/luci（luci 源码）
 
-## 二、全局配置 Git 身份（仅首次执行）
+###   二、全局配置 Git 身份（仅首次执行）
 
 # 配置 GitHub 用户名（替换为你的账号 Namia-kair）
 git config --global user.name "Namia-kair"
