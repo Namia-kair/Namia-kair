@@ -41,6 +41,8 @@ git push origin master
 推送时认证：
 用户名：输入 Namia-kair
 密码：输入 GitHub 生成的 PAT（ghp_开头的令牌，非登录密码）
+# 强制推送会覆盖远程仓库的代码
+git push origin master --force
 步骤 6：解决常见问题
 网络解析失败（Could not resolve host: github.com）：
 bash
